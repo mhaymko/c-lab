@@ -1,76 +1,31 @@
 //
 //  main.cpp
-//  425
+//  429
 //
-//  Created by Hayman Ko on 3/4/25.
+//  Created by Hayman Ko on 3/5/25.
 //
 
 #include <iostream>
 using namespace std;
 
 int main() {
-    int x = 5;
-    int y = 8;
+//    for ( int i = 1 ; i <= 8 ; i++ ) {
+//        for ( int j = 1 ; j <= 8 ; j++ ) {
+//            cout << "* " ;
+//            
+//        } cout << endl;
+//        if ( i % 2){
+//            cout << " ";
+//        }
+//    }
     
-    //a
     
-if ( y == 8){
-    if ( x == 5){
-        cout << "@@@@@" << endl;
+    for ( int i = 1 ; i <= 8 ; i++) {
+        if (i % 2)
+            cout << " ";
+        for ( int j = 1 ; j <= 8 ; j++){
+            cout << "* ";
+        }cout << endl;
     }
-    else {
-        cout << "#####" << endl;
-        }
-cout << "$$$$$" << endl;
-cout << "&&&&&" << endl;
-    }
-
     
-    
-    
-    cout << '\n' ;
-    
-    // b
-    
-    if ( y == 8)
-        if ( x == 5) {
-            cout << "@@@@@" << endl;
-        } else {
-            cout << "#####" << endl;
-            cout << "$$$$$" << endl;
-            cout << "&&&&&" << endl;
-        }
-    
-    cout << '\n';
-    
-    // c
-    
-    if ( y == 8)
-        if ( x == 5) {
-            cout << "@@@@@" << endl;
-            
-        } else {
-            cout << "#####" << endl;
-            cout << "$$$$$" << endl;
-        }
-    cout << "&&&&&" << endl;
-        
-            
-    cout << '\n';
-            
-    // d
-         
-    x = 5;
-    y = 7;
-            
-    if ( y == 8){
-        if ( x == 5)
-            cout << "@@@@@" << endl;
-        }
-    else
-        cout << "#####" << endl;
-        cout << "$$$$$" << endl;
-        cout << "&&&&&" << endl;
-            
-        
 }
